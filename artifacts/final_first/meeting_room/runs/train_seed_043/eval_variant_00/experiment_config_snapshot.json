@@ -1,0 +1,65 @@
+{
+  "room_id": "meeting_room",
+  "seed": 43,
+  "scenario_variant": 0,
+  "scenario_mode": "hidden_occupancy",
+  "scope": "heating_only",
+  "u_min": 0.0,
+  "u_max": 1.0,
+  "split_strategy": "time_ordered",
+  "warmup_minutes": 120,
+  "warmup_steps": 6,
+  "sampling_minutes": 20,
+  "horizon_minutes": 200,
+  "horizon_steps": 10,
+  "lstm_seq_len": 12,
+  "lstm_hidden_size": 24,
+  "lstm_epochs": 20,
+  "controllers": [
+    "onoff",
+    "pid",
+    "pure_mpc",
+    "hybrid_mpc"
+  ],
+  "expected_scenarios": [
+    "cold_day",
+    "sunny_day",
+    "spring_day",
+    "autumn_day",
+    "mixed_day",
+    "summer_heatwave"
+  ],
+  "loaded_scenarios": [
+    "cold_day",
+    "sunny_day",
+    "spring_day",
+    "autumn_day",
+    "mixed_day",
+    "summer_heatwave"
+  ],
+  "n_scenarios_loaded": 6,
+  "scenario_sources": {
+    "cold_day": "data/scenarios/meeting_room/cold_day_v00.csv",
+    "sunny_day": "data/scenarios/meeting_room/sunny_day_v00.csv",
+    "spring_day": "data/scenarios/meeting_room/spring_day_v00.csv",
+    "autumn_day": "data/scenarios/meeting_room/autumn_day_v00.csv",
+    "mixed_day": "data/scenarios/meeting_room/mixed_day_v00.csv",
+    "summer_heatwave": "data/scenarios/meeting_room/summer_heatwave_v00.csv"
+  },
+  "train_out_dir": "artifacts/final_first/meeting_room/runs/train_seed_043",
+  "eval_out_dir": "artifacts/final_first/meeting_room/runs/train_seed_043/eval_variant_00",
+  "run_root": "artifacts/final_first/meeting_room/runs/train_seed_043/eval_variant_00",
+  "run_manifest_path": "artifacts/final_first/meeting_room/runs/train_seed_043/eval_variant_00/run_manifest.json",
+  "eval_provenance_path": "artifacts/final_first/meeting_room/runs/train_seed_043/eval_variant_00/provenance.json",
+  "train_provenance_path": "artifacts/final_first/meeting_room/runs/train_seed_043/provenance.json",
+  "lstm_reused": false,
+  "reuse_requested": true,
+  "reuse_check_passed": false,
+  "reuse_mismatch_fields": [
+    "missing_cached_model"
+  ],
+  "train_signature_hash": "186e9424fbca1f58db91a55b0e92824ba0da048d352e5972743abaf3be28c734",
+  "expected_signature_hash": "186e9424fbca1f58db91a55b0e92824ba0da048d352e5972743abaf3be28c734",
+  "config_path": "configs/meeting_room.yaml",
+  "config_hash": "c9eb15ff9a100e1d700cbd1f38685bcd5bb78397de0253f21834dcd63011e419"
+}

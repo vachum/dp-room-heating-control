@@ -1,0 +1,11 @@
+{
+  "room_id": "large_office",
+  "seed": 44,
+  "scenario_variant": 1,
+  "room_root": null,
+  "run_root": "artifacts/final_first/large_office/runs/train_seed_044/eval_variant_01",
+  "eval_out_dir": "artifacts/final_first/large_office/runs/train_seed_044/eval_variant_01",
+  "train_out_dir": "artifacts/final_first/large_office/runs/train_seed_044",
+  "eval_provenance_path": "artifacts/final_first/large_office/runs/train_seed_044/eval_variant_01/provenance.json",
+  "train_provenance_path": "artifacts/final_first/large_office/runs/train_seed_044/provenance.json"
+}

@@ -1,0 +1,30 @@
+metadata:
+  room_id: "small_office"
+  sampling_minutes: 10
+  horizon_minutes: 600
+
+constraints:
+  u_min: 0.0
+  u_max: 1.0
+  du_max: 1.2
+
+comfort:
+  day_setpoint: 22.0
+  night_setpoint: 20.5
+
+experiment:
+  warmup_minutes: 120
+  lstm_seq_len: 12
+  lstm_hidden_size: 24
+  lstm_epochs: 20
+
+model:
+  plant_heating_gain: 3.5
+  plant_leak_coef: 0.15
+  plant_solar_coef: 0.003
+  plant_occ_coef: 0.07
+
+  mpc_heating_gain: 3.5
+  mpc_leak_coef: 0.08
+  mpc_solar_coef: 0.0012
+  mpc_occ_coef: 0.03

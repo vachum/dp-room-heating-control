@@ -1,0 +1,63 @@
+{
+  "room_id": "large_office",
+  "seed": 43,
+  "scenario_variant": 1,
+  "scenario_mode": "hidden_occupancy",
+  "scope": "heating_only",
+  "u_min": 0.0,
+  "u_max": 1.0,
+  "split_strategy": "time_ordered",
+  "warmup_minutes": 120,
+  "warmup_steps": 8,
+  "sampling_minutes": 15,
+  "horizon_minutes": 180,
+  "horizon_steps": 12,
+  "lstm_seq_len": 12,
+  "lstm_hidden_size": 24,
+  "lstm_epochs": 20,
+  "controllers": [
+    "onoff",
+    "pid",
+    "pure_mpc",
+    "hybrid_mpc"
+  ],
+  "expected_scenarios": [
+    "cold_day",
+    "sunny_day",
+    "spring_day",
+    "autumn_day",
+    "mixed_day",
+    "summer_heatwave"
+  ],
+  "loaded_scenarios": [
+    "cold_day",
+    "sunny_day",
+    "spring_day",
+    "autumn_day",
+    "mixed_day",
+    "summer_heatwave"
+  ],
+  "n_scenarios_loaded": 6,
+  "scenario_sources": {
+    "cold_day": "data/scenarios/large_office/cold_day_v01.csv",
+    "sunny_day": "data/scenarios/large_office/sunny_day_v01.csv",
+    "spring_day": "data/scenarios/large_office/spring_day_v01.csv",
+    "autumn_day": "data/scenarios/large_office/autumn_day_v01.csv",
+    "mixed_day": "data/scenarios/large_office/mixed_day_v01.csv",
+    "summer_heatwave": "data/scenarios/large_office/summer_heatwave_v01.csv"
+  },
+  "train_out_dir": "artifacts/final_first/large_office/runs/train_seed_043",
+  "eval_out_dir": "artifacts/final_first/large_office/runs/train_seed_043/eval_variant_01",
+  "run_root": "artifacts/final_first/large_office/runs/train_seed_043/eval_variant_01",
+  "run_manifest_path": "artifacts/final_first/large_office/runs/train_seed_043/eval_variant_01/run_manifest.json",
+  "eval_provenance_path": "artifacts/final_first/large_office/runs/train_seed_043/eval_variant_01/provenance.json",
+  "train_provenance_path": "artifacts/final_first/large_office/runs/train_seed_043/provenance.json",
+  "lstm_reused": true,
+  "reuse_requested": true,
+  "reuse_check_passed": true,
+  "reuse_mismatch_fields": [],
+  "train_signature_hash": "714821d26a399f514e75b1cfaa9a6eeda6f12c0387eebf3f6b1e18e8fa0bddf1",
+  "expected_signature_hash": "714821d26a399f514e75b1cfaa9a6eeda6f12c0387eebf3f6b1e18e8fa0bddf1",
+  "config_path": "configs/large_office.yaml",
+  "config_hash": "fed42ac55458a9895b2ca47c8bf4e0b7f40818e2c80fc079818159cf5821b427"
+}

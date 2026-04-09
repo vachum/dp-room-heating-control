@@ -1,0 +1,32 @@
+metadata:
+  room_id: "meeting_room"
+  sampling_minutes: 20
+  horizon_minutes: 200
+
+constraints:
+  u_min: 0.0
+  u_max: 1.0
+  du_max: 0.8
+
+comfort:
+  day_setpoint: 21.0
+  night_setpoint: 18.0
+
+experiment:
+  warmup_minutes: 120
+  lstm_seq_len: 12
+  lstm_hidden_size: 24
+  lstm_epochs: 20
+
+model:
+  # High solar gain (large windows), leaky older building, high occupancy effect
+  plant_heating_gain: 4.2
+  plant_leak_coef: 0.28
+  plant_solar_coef: 0.010
+  plant_occ_coef: 0.15
+
+  # MPC model has intentional mismatch (underestimates leakage and solar)
+  mpc_heating_gain: 4.2
+  mpc_leak_coef: 0.18
+  mpc_solar_coef: 0.006
+  mpc_occ_coef: 0.10

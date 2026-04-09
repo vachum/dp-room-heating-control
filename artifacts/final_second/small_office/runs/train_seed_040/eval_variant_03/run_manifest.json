@@ -1,0 +1,11 @@
+{
+  "room_id": "small_office",
+  "seed": 40,
+  "scenario_variant": 3,
+  "room_root": null,
+  "run_root": "artifacts/final_20260321/small_office/runs/train_seed_040/eval_variant_03",
+  "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_040/eval_variant_03",
+  "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_040",
+  "eval_provenance_path": "artifacts/final_20260321/small_office/runs/train_seed_040/eval_variant_03/provenance.json",
+  "train_provenance_path": "artifacts/final_20260321/small_office/runs/train_seed_040/provenance.json"
+}

@@ -1,0 +1,11 @@
+{
+  "room_id": "meeting_room",
+  "seed": 42,
+  "scenario_variant": 3,
+  "room_root": null,
+  "run_root": "artifacts/final_first/meeting_room/runs/train_seed_042/eval_variant_03",
+  "eval_out_dir": "artifacts/final_first/meeting_room/runs/train_seed_042/eval_variant_03",
+  "train_out_dir": "artifacts/final_first/meeting_room/runs/train_seed_042",
+  "eval_provenance_path": "artifacts/final_first/meeting_room/runs/train_seed_042/eval_variant_03/provenance.json",
+  "train_provenance_path": "artifacts/final_first/meeting_room/runs/train_seed_042/provenance.json"
+}

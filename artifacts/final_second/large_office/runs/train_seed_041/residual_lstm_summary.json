@@ -1,0 +1,13 @@
+{
+  "split_strategy": "time_ordered",
+  "samples": 5710,
+  "train_samples": 4568,
+  "val_samples": 1142,
+  "train_rmse": 0.07949067720094437,
+  "val_rmse": 0.09338559856597799,
+  "training_data": "artifacts/final_20260321/large_office/runs/train_seed_041/residual_training_data.csv",
+  "model_path": "artifacts/final_20260321/large_office/runs/train_seed_041/residual_lstm.pt",
+  "meta_path": "artifacts/final_20260321/large_office/runs/train_seed_041/residual_lstm_meta.json",
+  "train_runtime_s": 3.0088347910000266,
+  "train_signature_hash": "c814b8fa39139147f81d766d0758228078550ae85703da9e23a5d6dce4bd55e2"
+}

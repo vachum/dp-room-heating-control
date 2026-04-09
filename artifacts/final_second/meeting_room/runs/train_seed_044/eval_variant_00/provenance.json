@@ -1,0 +1,24 @@
+{
+  "timestamp_utc": "2026-03-31T18:48:22.705128+00:00",
+  "python_version": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "command": "scripts/benchmark_report.py --configs configs/small_office.yaml,configs/large_office.yaml,configs/meeting_room.yaml --scenarios-dir data/scenarios --seeds 40,41,42,43,44 --variants 0,1,2,3 --artifact-root artifacts --experiment-tag final_20260321",
+  "cwd": "/Users/vachum/Desktop/Diplomka/prakticka-cast",
+  "package_versions": {
+    "numpy": "2.4.2",
+    "pandas": "3.0.1",
+    "torch": "2.10.0",
+    "cvxpy": "1.8.1",
+    "scipy": "1.17.1"
+  },
+  "git_commit": "98eace811f160f43cfdc066f2e7c3b54f42f0289",
+  "git_dirty": true,
+  "config_path": "configs/meeting_room.yaml",
+  "seed": 44,
+  "scenario_variant": 0,
+  "out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_044/eval_variant_00",
+  "stage": "eval_run",
+  "scenario_mode": "hidden_occupancy",
+  "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_044",
+  "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_044/eval_variant_00",
+  "run_root": "artifacts/final_20260321/meeting_room/runs/train_seed_044/eval_variant_00"
+}

@@ -1,0 +1,80 @@
+{
+  "room_id": "small_office",
+  "seed": 41,
+  "scenario_variant": 3,
+  "scenario_mode": "hidden_occupancy",
+  "expected_scenarios": [
+    "cold_day",
+    "sunny_day",
+    "spring_day",
+    "autumn_day",
+    "mixed_day",
+    "summer_heatwave"
+  ],
+  "loaded_scenarios": [
+    "cold_day",
+    "sunny_day",
+    "spring_day",
+    "autumn_day",
+    "mixed_day",
+    "summer_heatwave"
+  ],
+  "n_scenarios_loaded": 6,
+  "scenario_sources": {
+    "cold_day": "data/scenarios/small_office/cold_day_v03.csv",
+    "sunny_day": "data/scenarios/small_office/sunny_day_v03.csv",
+    "spring_day": "data/scenarios/small_office/spring_day_v03.csv",
+    "autumn_day": "data/scenarios/small_office/autumn_day_v03.csv",
+    "mixed_day": "data/scenarios/small_office/mixed_day_v03.csv",
+    "summer_heatwave": "data/scenarios/small_office/summer_heatwave_v03.csv"
+  },
+  "warmup_minutes": 120,
+  "warmup_steps": 12,
+  "lstm_seq_len": 12,
+  "lstm_hidden_size": 24,
+  "lstm_epochs": 20,
+  "config_path": "configs/small_office.yaml",
+  "config_hash": "d9a8eb067e8d32e09fc647ac130bd58c875411716e260f987710b2af17023e57",
+  "run_root": "artifacts/final_20260321/small_office/runs/train_seed_041/eval_variant_03",
+  "run_manifest_path": "artifacts/final_20260321/small_office/runs/train_seed_041/eval_variant_03/run_manifest.json",
+  "eval_provenance_path": "artifacts/final_20260321/small_office/runs/train_seed_041/eval_variant_03/provenance.json",
+  "train_provenance_path": "artifacts/final_20260321/small_office/runs/train_seed_041/provenance.json",
+  "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_041",
+  "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_041/eval_variant_03",
+  "lstm_reused": true,
+  "reuse_requested": true,
+  "reuse_check_passed": true,
+  "reuse_mismatch_fields": [],
+  "train_signature_hash": "b94416aab1e5d24a1f3ab161183144095de59379ef7ed1974a12c68d248901f0",
+  "expected_signature_hash": "b94416aab1e5d24a1f3ab161183144095de59379ef7ed1974a12c68d248901f0",
+  "train_runtime_s_incremental": 0.0,
+  "train_runtime_s_source": 4.3720051669999975,
+  "lstm_model_path": "artifacts/final_20260321/small_office/runs/train_seed_041/residual_lstm.pt",
+  "solver_status_totals": {
+    "optimal": 2304,
+    "optimal_inaccurate": 0,
+    "fallback": 0
+  },
+  "solver_status_by_controller": {
+    "hybrid_mpc": {
+      "optimal": 1152,
+      "optimal_inaccurate": 0,
+      "fallback": 0
+    },
+    "pid": {
+      "optimal": 0,
+      "optimal_inaccurate": 0,
+      "fallback": 0
+    },
+    "pure_mpc": {
+      "optimal": 1152,
+      "optimal_inaccurate": 0,
+      "fallback": 0
+    },
+    "onoff": {
+      "optimal": 0,
+      "optimal_inaccurate": 0,
+      "fallback": 0
+    }
+  }
+}

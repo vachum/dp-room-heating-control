@@ -1,0 +1,63 @@
+{
+  "split_strategy": "time_ordered",
+  "train_samples": 6889,
+  "val_samples": 1723,
+  "seq_len": 12,
+  "horizon": 18,
+  "horizon_steps": 18,
+  "hidden_size": 24,
+  "epochs": 20,
+  "feature_columns": [
+    "y",
+    "u",
+    "T_out",
+    "solar",
+    "occupancy",
+    "setpoint",
+    "residual"
+  ],
+  "feat_mean": [
+    19.06049045770633,
+    0.5065055112747826,
+    5.3184065725184455,
+    61.851611252696415,
+    1.1652392703343495,
+    21.3165190884018,
+    -0.13098313133415967
+  ],
+  "feat_std": [
+    5.721927758428287,
+    0.32192279020109243,
+    6.659498102756277,
+    85.21557954164507,
+    1.5410420064245969,
+    0.7518381334141497,
+    0.06266835779726855
+  ],
+  "target_mean": -0.13087146618255657,
+  "target_std": 0.06254894936104746,
+  "room_id": "small_office",
+  "sampling_minutes": 10,
+  "seed": 43,
+  "config_hash": "e9953e04c93843ca54a28f7d47f586b29b84dc89c55de2aac70711f7c97519fe",
+  "lstm_signature_hash": "b1aa15fd7c222eb463ae5b97a82e27e8d3f4ac6a796007e28f9c426e8308767b",
+  "training_signature": {
+    "room_id": "small_office",
+    "sampling_minutes": 10,
+    "horizon_steps": 18,
+    "feature_columns": [
+      "y",
+      "u",
+      "T_out",
+      "solar",
+      "occupancy",
+      "setpoint",
+      "residual"
+    ],
+    "seq_len": 12,
+    "hidden_size": 24,
+    "epochs": 20,
+    "seed": 43,
+    "config_hash": "e9953e04c93843ca54a28f7d47f586b29b84dc89c55de2aac70711f7c97519fe"
+  }
+}

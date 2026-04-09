@@ -1,0 +1,1052 @@
+{
+  "artifact_root": "artifacts/final_20260321",
+  "config_paths": [
+    "configs/small_office.yaml",
+    "configs/large_office.yaml",
+    "configs/meeting_room.yaml"
+  ],
+  "rooms": [
+    "small_office",
+    "large_office",
+    "meeting_room"
+  ],
+  "seeds": [
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "variants": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "expected_scenarios": [
+    "cold_day",
+    "sunny_day",
+    "spring_day",
+    "autumn_day",
+    "mixed_day",
+    "summer_heatwave"
+  ],
+  "row_counts": {
+    "per_room": {
+      "small_office": {
+        "run_level_rows": 80,
+        "scenario_level_rows": 480
+      },
+      "large_office": {
+        "run_level_rows": 80,
+        "scenario_level_rows": 480
+      },
+      "meeting_room": {
+        "run_level_rows": 80,
+        "scenario_level_rows": 480
+      }
+    },
+    "combined_run_level_rows": 240,
+    "combined_scenario_level_rows": 1440
+  },
+  "wins_total": 60,
+  "coverage_runs": [
+    {
+      "room_id": "small_office",
+      "seed": 40,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_040",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_040/eval_variant_00"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 40,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_040",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_040/eval_variant_01"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 40,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_040",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_040/eval_variant_02"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 40,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_040",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_040/eval_variant_03"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 41,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_041",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_041/eval_variant_00"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 41,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_041",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_041/eval_variant_01"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 41,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_041",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_041/eval_variant_02"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 41,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_041",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_041/eval_variant_03"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 42,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_042",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_042/eval_variant_00"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 42,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_042",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_042/eval_variant_01"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 42,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_042",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_042/eval_variant_02"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 42,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_042",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_042/eval_variant_03"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 43,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_043",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_043/eval_variant_00"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 43,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_043",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_043/eval_variant_01"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 43,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_043",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_043/eval_variant_02"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 43,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_043",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_043/eval_variant_03"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 44,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_044",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_044/eval_variant_00"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 44,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_044",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_044/eval_variant_01"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 44,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_044",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_044/eval_variant_02"
+    },
+    {
+      "room_id": "small_office",
+      "seed": 44,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_044",
+      "eval_out_dir": "artifacts/final_20260321/small_office/runs/train_seed_044/eval_variant_03"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 40,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_040",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_040/eval_variant_00"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 40,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_040",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_040/eval_variant_01"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 40,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_040",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_040/eval_variant_02"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 40,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_040",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_040/eval_variant_03"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 41,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_041",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_041/eval_variant_00"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 41,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_041",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_041/eval_variant_01"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 41,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_041",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_041/eval_variant_02"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 41,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_041",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_041/eval_variant_03"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 42,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_042",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_042/eval_variant_00"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 42,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_042",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_042/eval_variant_01"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 42,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_042",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_042/eval_variant_02"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 42,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_042",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_042/eval_variant_03"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 43,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_043",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_043/eval_variant_00"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 43,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_043",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_043/eval_variant_01"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 43,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_043",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_043/eval_variant_02"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 43,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_043",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_043/eval_variant_03"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 44,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_044",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_044/eval_variant_00"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 44,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_044",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_044/eval_variant_01"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 44,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_044",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_044/eval_variant_02"
+    },
+    {
+      "room_id": "large_office",
+      "seed": 44,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_044",
+      "eval_out_dir": "artifacts/final_20260321/large_office/runs/train_seed_044/eval_variant_03"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 40,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_040",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_040/eval_variant_00"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 40,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_040",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_040/eval_variant_01"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 40,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_040",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_040/eval_variant_02"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 40,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_040",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_040/eval_variant_03"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 41,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_041",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_041/eval_variant_00"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 41,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_041",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_041/eval_variant_01"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 41,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_041",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_041/eval_variant_02"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 41,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_041",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_041/eval_variant_03"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 42,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_042",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_042/eval_variant_00"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 42,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_042",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_042/eval_variant_01"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 42,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_042",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_042/eval_variant_02"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 42,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_042",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_042/eval_variant_03"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 43,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_043",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_043/eval_variant_00"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 43,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_043",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_043/eval_variant_01"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 43,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_043",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_043/eval_variant_02"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 43,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_043",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_043/eval_variant_03"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 44,
+      "variant": 0,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_044",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_044/eval_variant_00"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 44,
+      "variant": 1,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_044",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_044/eval_variant_01"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 44,
+      "variant": 2,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_044",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_044/eval_variant_02"
+    },
+    {
+      "room_id": "meeting_room",
+      "seed": 44,
+      "variant": 3,
+      "n_scenarios_loaded": 6,
+      "loaded_scenarios": [
+        "cold_day",
+        "sunny_day",
+        "spring_day",
+        "autumn_day",
+        "mixed_day",
+        "summer_heatwave"
+      ],
+      "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_044",
+      "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_044/eval_variant_03"
+    }
+  ],
+  "provenance": {
+    "timestamp_utc": "2026-03-31T18:24:53.323012+00:00",
+    "python_version": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "command": "scripts/benchmark_report.py --configs configs/small_office.yaml,configs/large_office.yaml,configs/meeting_room.yaml --scenarios-dir data/scenarios --seeds 40,41,42,43,44 --variants 0,1,2,3 --artifact-root artifacts --experiment-tag final_20260321",
+    "cwd": "/Users/vachum/Desktop/Diplomka/prakticka-cast",
+    "package_versions": {
+      "numpy": "2.4.2",
+      "pandas": "3.0.1",
+      "torch": "2.10.0",
+      "cvxpy": "1.8.1",
+      "scipy": "1.17.1"
+    },
+    "git_commit": "98eace811f160f43cfdc066f2e7c3b54f42f0289",
+    "git_dirty": true,
+    "stage": "benchmark",
+    "artifact_root": "artifacts/final_20260321",
+    "config_paths": [
+      "configs/small_office.yaml",
+      "configs/large_office.yaml",
+      "configs/meeting_room.yaml"
+    ],
+    "seeds": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "scenario_mode": "hidden_occupancy",
+    "scenarios_dir": "data/scenarios"
+  }
+}

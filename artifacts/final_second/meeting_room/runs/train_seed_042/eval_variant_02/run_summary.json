@@ -1,0 +1,80 @@
+{
+  "room_id": "meeting_room",
+  "seed": 42,
+  "scenario_variant": 2,
+  "scenario_mode": "hidden_occupancy",
+  "expected_scenarios": [
+    "cold_day",
+    "sunny_day",
+    "spring_day",
+    "autumn_day",
+    "mixed_day",
+    "summer_heatwave"
+  ],
+  "loaded_scenarios": [
+    "cold_day",
+    "sunny_day",
+    "spring_day",
+    "autumn_day",
+    "mixed_day",
+    "summer_heatwave"
+  ],
+  "n_scenarios_loaded": 6,
+  "scenario_sources": {
+    "cold_day": "data/scenarios/meeting_room/cold_day_v02.csv",
+    "sunny_day": "data/scenarios/meeting_room/sunny_day_v02.csv",
+    "spring_day": "data/scenarios/meeting_room/spring_day_v02.csv",
+    "autumn_day": "data/scenarios/meeting_room/autumn_day_v02.csv",
+    "mixed_day": "data/scenarios/meeting_room/mixed_day_v02.csv",
+    "summer_heatwave": "data/scenarios/meeting_room/summer_heatwave_v02.csv"
+  },
+  "warmup_minutes": 120,
+  "warmup_steps": 6,
+  "lstm_seq_len": 12,
+  "lstm_hidden_size": 24,
+  "lstm_epochs": 20,
+  "config_path": "configs/meeting_room.yaml",
+  "config_hash": "a4890b34302b602a2e23f467ef170872b057709002d282175765cb0020890871",
+  "run_root": "artifacts/final_20260321/meeting_room/runs/train_seed_042/eval_variant_02",
+  "run_manifest_path": "artifacts/final_20260321/meeting_room/runs/train_seed_042/eval_variant_02/run_manifest.json",
+  "eval_provenance_path": "artifacts/final_20260321/meeting_room/runs/train_seed_042/eval_variant_02/provenance.json",
+  "train_provenance_path": "artifacts/final_20260321/meeting_room/runs/train_seed_042/provenance.json",
+  "train_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_042",
+  "eval_out_dir": "artifacts/final_20260321/meeting_room/runs/train_seed_042/eval_variant_02",
+  "lstm_reused": true,
+  "reuse_requested": true,
+  "reuse_check_passed": true,
+  "reuse_mismatch_fields": [],
+  "train_signature_hash": "4fa3a0043447f1e7ad8cbb2c95d6b600d3b81e1f9789d5d5c6d945b31f2b7383",
+  "expected_signature_hash": "4fa3a0043447f1e7ad8cbb2c95d6b600d3b81e1f9789d5d5c6d945b31f2b7383",
+  "train_runtime_s_incremental": 0.0,
+  "train_runtime_s_source": 2.265000333000444,
+  "lstm_model_path": "artifacts/final_20260321/meeting_room/runs/train_seed_042/residual_lstm.pt",
+  "solver_status_totals": {
+    "optimal": 2304,
+    "optimal_inaccurate": 0,
+    "fallback": 0
+  },
+  "solver_status_by_controller": {
+    "hybrid_mpc": {
+      "optimal": 1152,
+      "optimal_inaccurate": 0,
+      "fallback": 0
+    },
+    "onoff": {
+      "optimal": 0,
+      "optimal_inaccurate": 0,
+      "fallback": 0
+    },
+    "pure_mpc": {
+      "optimal": 1152,
+      "optimal_inaccurate": 0,
+      "fallback": 0
+    },
+    "pid": {
+      "optimal": 0,
+      "optimal_inaccurate": 0,
+      "fallback": 0
+    }
+  }
+}
