@@ -16,32 +16,22 @@ maintaining comparable energy consumption.
 
 ## Architecture
 
-```
-configs/*.yaml
-      |
-      v
-generate_scenarios.py --> data/scenarios/<room>/<type>_vNN.csv
-      |
-      v
-run_mvp.py / benchmark_report.py
-      |
-      +-- train_residual_lstm()     (once per room x seed)
-      |
-      +-- run_closed_loop()         (4 controllers x 6 scenarios)
-      |         |
-      |    [ToyRoomPlant]           plant (ground truth)
-      |    [LinearRoomModel]        MPC prediction model (intentionally mismatched)
-      |    [ResidualLSTMPredictor]  LSTM corrects the model error online
-      |
-      +-- compute_kpi()
-      |
-      v
-artifacts/<tag>/
-      |
-      +-- benchmark_manifest.json
-      +-- benchmark_combined/       combined CSV exports
-      +-- <room_id>/benchmark/      per-room CSV exports
-      +-- <room_id>/runs/train_seed_XXX/eval_variant_YY/
+```mermaid
+flowchart TD
+    A["configs/*.yaml"] --> B["generate_scenarios.py"]
+    B --> C["data/scenarios/&lt;room&gt;/&lt;type&gt;_vNN.csv"]
+    A --> D["run_mvp.py / benchmark_report.py"]
+    D --> E["train_residual_lstm()\n(once per room × seed)"]
+    D --> F["run_closed_loop()\n(4 controllers × 6 scenarios)"]
+    F --> G["ToyRoomPlant\nplant — ground truth"]
+    F --> H["LinearRoomModel\nMPC prediction model\n(intentionally mismatched)"]
+    F --> I["ResidualLSTMPredictor\nLSTM corrects model error online"]
+    D --> J["compute_kpi()"]
+    J --> K["artifacts/&lt;tag&gt;/"]
+    K --> L["benchmark_manifest.json"]
+    K --> M["benchmark_combined/\ncombined CSV exports"]
+    K --> N["&lt;room_id&gt;/benchmark/\nper-room CSV exports"]
+    K --> O["&lt;room_id&gt;/runs/train_seed_XXX/\neval_variant_YY/"]
 ```
 
 ## Quick Start
