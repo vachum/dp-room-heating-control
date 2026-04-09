@@ -36,26 +36,36 @@ flowchart TD
 
 ## Quick Start
 
+### 1. Install
+
 ```bash
-# 1. Install
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
 
-# 2. Generate scenario data (run once)
+### 2. Generate scenario data
+
+```bash
 python scripts/generate_scenarios.py --config configs/small_office.yaml --out-dir data/scenarios
 python scripts/generate_scenarios.py --config configs/large_office.yaml --out-dir data/scenarios
 python scripts/generate_scenarios.py --config configs/meeting_room.yaml --out-dir data/scenarios
+```
 
-# 3. Single smoke run
+### 3. Single smoke run
+
+```bash
 python scripts/run_mvp.py \
   --config configs/small_office.yaml \
   --scenarios-dir data/scenarios \
   --scenario-variant 0 \
   --seed 42 \
   --no-show
+```
 
-# 4. Full benchmark (all rooms, seeds 40-44, variants 0-3)
+### 4. Full benchmark
+
+```bash
 python scripts/benchmark_report.py \
   --configs configs/small_office.yaml,configs/large_office.yaml,configs/meeting_room.yaml \
   --scenarios-dir data/scenarios \
@@ -63,8 +73,11 @@ python scripts/benchmark_report.py \
   --variants 0,1,2,3 \
   --artifact-root artifacts \
   --experiment-tag final_20260321
+```
 
-# 5. Audit + statistics
+### 5. Audit + statistics
+
+```bash
 python scripts/audit_benchmark.py \
   --configs configs/small_office.yaml,configs/large_office.yaml,configs/meeting_room.yaml \
   --seeds 40,41,42,43,44 --variants 0,1,2,3 \
@@ -72,8 +85,11 @@ python scripts/audit_benchmark.py \
 
 python scripts/benchmark_statistics.py \
   --artifact-root artifacts --experiment-tag final_20260321 --analysis-unit both
+```
 
-# 6. Tests
+### 6. Tests
+
+```bash
 pytest -q
 ```
 
