@@ -94,7 +94,7 @@ eval_run/
   kpi_simple_table.csv             KPI per controller x scenario
   kpi_simple_avg.csv               mean KPI per controller
   runtime_table.csv                step/solver/forecast timing stats
-  <room_id>_controllers.png        comparison plot
+  comparison_simple.png            comparison plot
 
 lstm_train/
   residual_lstm.pt                 model weights (PyTorch state_dict)

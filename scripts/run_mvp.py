@@ -1123,7 +1123,7 @@ def main() -> int:
         f"val_rmse={result.lstm_result.val_rmse:.4f}"
     )
 
-    print("\nPOROVNANI CONTROLLERU (prumer pres scenare):")
+    print("\nController comparison (mean across scenarios):")
     print(result.avg_df.to_string(index=False))
     print(f"\nGraf ulozen: {result.chart_path}")
     return 0

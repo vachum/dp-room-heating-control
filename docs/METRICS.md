@@ -98,9 +98,10 @@ Each type has 5 variants (`v00`–`v04`) generated with different seeds. Variant
 | `p_value` | raw two-sided Wilcoxon p-value |
 | `p_value_corrected` | Holm-Bonferroni corrected p-value |
 | `effect_size` | rank-biserial correlation |
-| `delta_mean` | mean(hybrid_mpc − baseline); negative = hybrid is better |
-| `delta_median` | median(hybrid_mpc − baseline) |
-| `ci_low`, `ci_high` | 95 % bootstrap CI on delta_mean (2000 resamples, seed 42) |
+| `delta_mean` | mean(baseline − hybrid_mpc); positive = hybrid is better for lower-is-better KPIs |
+| `delta_median` | median(baseline − hybrid_mpc) |
+| `delta_mean_ci_low`, `delta_mean_ci_high` | 95 % bootstrap CI on delta_mean (2000 resamples, seed 42) |
+| `delta_median_ci_low`, `delta_median_ci_high` | 95 % bootstrap CI on delta_median (2000 resamples, seed 42) |
 
 ---
 
@@ -110,8 +111,8 @@ Each type has 5 variants (`v00`–`v04`) generated with different seeds. Variant
 paired, appropriate for the small sample sizes here (~60 run-level pairs per baseline).
 
 **Test setup:**
-- Null hypothesis: median difference KPI(hybrid_mpc) − KPI(baseline) = 0
-- Direction: one-sided (hybrid_mpc lower is better for comfort KPIs)
+- Null hypothesis: median difference KPI(baseline) − KPI(hybrid_mpc) = 0
+- Direction: two-sided (tests whether hybrid_mpc differs from baseline; use sign of delta_mean to determine direction)
 - Baselines tested: `onoff`, `pid`, `pure_mpc`
 - KPIs tested: all seven per baseline
 
